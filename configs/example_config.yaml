@@ -1,0 +1,26 @@
+adapter:
+  type: langchain
+  module_path: my_app.agents
+  class_name: ResearchAgent
+  timeout_seconds: 30.0
+
+modules:
+  - asi_code: ASI01
+    enabled: true
+    max_turns: 7
+  - asi_code: ASI02
+    enabled: true
+  - asi_code: ASI03
+    enabled: true
+    parameters:
+      denied_tools: [shell_exec, file_write]
+  - asi_code: ASI06
+    enabled: true
+    parameters:
+      canary_prefix: PPCANARY
+      test_cross_session: true
+
+report:
+  formats: [json, html]
+  output_dir: ./reports
+verbose: false
