@@ -1,6 +1,5 @@
 # PhantomPilot
 
-[![CI](https://img.shields.io/github/actions/workflow/status/duartelcunha/phantompilot/ci.yml?branch=main&label=CI)](https://github.com/duartelcunha/phantompilot/actions)
 [![Python 3.11+](https://img.shields.io/badge/python-3.11%2B-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![OWASP Agentic AI](https://img.shields.io/badge/OWASP-Agentic%20AI%20Top%2010-orange.svg)](https://owasp.org/www-project-agentic-ai-threats/)
